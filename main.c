@@ -4,7 +4,7 @@
 #include <sys/wait.h>
 
 int main(void) {
-  pid_T pid;
+  pid_t pid;
 
   char * argv[] = {"/bin/ls","-l",NULL}; // NULL para saber o fim da string
 
